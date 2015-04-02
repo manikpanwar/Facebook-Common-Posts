@@ -12,10 +12,12 @@ Usage:
 
 Open terminal and run the following command
 
-mongod --dbpath <path-where-you-want-to-store-data>
+mongod --dbpath "path-where-you-want-to-store-data"
 
 eg. In your project folder
+
 mkdir data
+
 mongod --dbpath ./data
 
 Once mongo is running in terminal, run the script to store the common posts among facebook pages you specify.
