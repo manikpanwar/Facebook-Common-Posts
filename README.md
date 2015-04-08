@@ -22,6 +22,4 @@ mongod --dbpath ./data
 
 Once mongo is running in terminal, run the script to store the common posts among facebook pages you specify.
 
-Run time:
 
-This runs in O(N) run time; where N is the total number of posts among all facebook pages.
